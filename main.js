@@ -33,7 +33,7 @@ Cliente3.adicionarTelefone(telefone2C3);
 
 
 const endereco4 = new Endereco("NM", "Albuquerque", "Rua dos cara foda", 321);
-const Cliente4 = new Cliente("Mike", "345.678.90-12", endereco4);
+const Cliente4 = new Cliente("Mike Ehrmantraut", "345.678.90-12", endereco4);
 const telefone1C4 = new Telefone(87, 66778899);
 const telefone2C4 = new Telefone(87, 99889977);
 Cliente4.adicionarTelefone(telefone1C4);
@@ -56,3 +56,4 @@ Clientes.forEach(cliente => {
 
 
 console.log(Empresa1.detalhe())
+
